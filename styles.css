@@ -1042,6 +1042,15 @@ section {
     align-items: center;
     gap: 4px;
 }
+.footer-brand .brand-zebrius {
+    color: var(--white) !important; /* Make Zebrius white in footer */
+    text-shadow: none; /* Remove any conflicting shadows */
+}
+
+.footer-brand .brand-technologies {
+    color: var(--primary-color) !important; /* Keep Technologies blue */
+    text-shadow: none; /* Remove any conflicting shadows */
+}
 
 .footer-brand p {
     color: var(--gray-400);
@@ -1596,6 +1605,7 @@ section {
         transform: translateY(0) !important; /* Always visible on desktop */
     }
 }
+
 
 .company-values {
     display: flex;
